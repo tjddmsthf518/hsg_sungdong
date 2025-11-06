@@ -1,0 +1,11 @@
+section:not(.section_1, .section_3, .section_5) {
+  padding: 80px 20px;
+}
+
+.section_2 h3,
+.section_3 h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 30px;
+}
