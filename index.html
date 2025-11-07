@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HSG성동조선</title>
+    <link rel="icon" href="img/ico.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,10 +24,12 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
@@ -45,11 +48,39 @@
         <div class="menu_bar">
           <i class="fa-solid fa-bars"></i>
         </div>
+
+        <div class="sub_menu_wrap">
+          <ul class="menu_wrap">
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <div class="line"></div>
+            <li>
+              <a href="#">Business</a>
+            </li>
+            <div class="line"></div>
+            <li>
+              <a href="#">Technology</a>
+            </li>
+            <div class="line"></div>
+            <li>
+              <a href="#">Promotion</a>
+            </li>
+            <div class="line"></div>
+            <li>
+              <a href="#">Employment</a>
+            </li>
+          </ul>
+
+          <div class="close_btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
       </header>
       <!-- header end -->
 
       <section class="section_1">
-        <h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000">
           "가치에 도전하며, <br />
           인류와 공존하는 회사"
         </h2>
@@ -61,10 +92,10 @@
       <!-- section_1 end -->
 
       <section class="section_2">
-        <h3>Business</h3>
+        <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Business</h3>
 
         <div class="con_wrap_2">
-          <div class="con_2">
+          <div class="con_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <a href="#">
               <img src="img/section_2/con_2_1.jpg" alt="con_2_1" />
               <div class="con_title_wrap_2">
@@ -77,7 +108,7 @@
             </a>
           </div>
 
-          <div class="con_2">
+          <div class="con_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <a href="#">
               <img src="img/section_2/con_2_2.jpg" alt="con_2_2" />
               <div class="con_title_wrap_2">
@@ -90,7 +121,7 @@
             </a>
           </div>
 
-          <div class="con_2">
+          <div class="con_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
             <a href="#">
               <img src="img/section_2/con_2_3.jpg" alt="con_2_3" />
               <div class="con_title_wrap_2">
@@ -103,7 +134,7 @@
             </a>
           </div>
 
-          <div class="con_2">
+          <div class="con_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <a href="#">
               <img src="img/section_2/con_2_4.jpg" alt="con_2_4" />
               <div class="con_title_wrap_2">
@@ -120,11 +151,11 @@
       <!-- section_2 end -->
 
       <section class="section_3">
-        <h3>Technology</h3>
+        <h3 data-aos="fade-up" data-aos-duration="1000">Technology</h3>
 
         <div class="con_wrap_3">
           <div class="con_3 con_3_1">
-            <a href="#">
+            <a href="#" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
               설계 기술 연구
               <div class="more_btn_3">
                 <i class="fa-solid fa-arrow-right"></i>
@@ -133,7 +164,7 @@
           </div>
 
           <div class="con_3 con_3_2">
-            <a href="#">
+            <a href="#" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
               생산 기술 연구
               <div class="more_btn_3">
                 <i class="fa-solid fa-arrow-right"></i>
@@ -142,7 +173,7 @@
           </div>
 
           <div class="con_3 con_3_3">
-            <a href="#">
+            <a href="#" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
               친환경 기술 연구
               <div class="more_btn_3">
                 <i class="fa-solid fa-arrow-right"></i>
@@ -151,7 +182,7 @@
           </div>
 
           <div class="con_3 con_3_4">
-            <a href="#">
+            <a href="#" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
               건조 기술 연구
               <div class="more_btn_3">
                 <i class="fa-solid fa-arrow-right"></i>
@@ -164,8 +195,9 @@
 
       <section class="section_4">
         <div class="title_wrap_4">
-          <div class="title_4">
-            <h3>Promotion</h3>
+          <h3 data-aos="fade-up" data-aos-duration="1000">Promotion</h3>
+          <div class="title_4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <p>최신 소식를 통해 미래 가치를 함께 확인해 보세요.</p>
             <div class="more_btn_4">
               <a href="#">
                 더보기
@@ -173,10 +205,10 @@
               </a>
             </div>
           </div>
-          <p>최신 소식과 인사이트를 통해 미래 가치를 함께 확인해 보세요.</p>
+          
         </div>
 
-        <div class="swiper con_wrap_4">
+        <div class="swiper con_wrap_4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <a href="#">
@@ -197,7 +229,7 @@
                 <div class="con_title_wrap_4">
                   <div class="con_sub_title_4">성동뉴스</div>
                   <div class="con_title_4">
-                    CIP, HSG성동조선과 "해울이 부유식 해상풍력•••
+                    CIP, HSG성동조선과 "해울이 부유식 해상풍력···
                   </div>
                   <span>2025.10.17</span>
                 </div>
@@ -206,22 +238,22 @@
 
             <div class="swiper-slide">
               <a href="#">
-                <img src="" alt="" />
+                <img src="img/section_4/con_4_3.jpg" alt="con_4_3" />
                 <div class="con_title_wrap_4">
-                  <div class="con_sub_title_4"></div>
-                  <div class="con_title_4"></div>
-                  <span></span>
+                  <div class="con_sub_title_4">프로모션</div>
+                  <div class="con_title_4">“36만 평 규모 야드와 2 km 직선형 안벽 보···</div>
+                  <span>2025.07.31</span>
                 </div>
               </a>
             </div>
 
             <div class="swiper-slide">
               <a href="#">
-                <img src="" alt="" />
+                <img src="img/section_4/con_4_4.jpg" alt="con_4_4" />
                 <div class="con_title_wrap_4">
-                  <div class="con_sub_title_4"></div>
-                  <div class="con_title_4"></div>
-                  <span></span>
+                  <div class="con_sub_title_4">프로모션</div>
+                  <div class="con_title_4">스마트야드, 자동화 공정 도입 성공 사례로···</div>
+                  <span>2025.06.15</span>
                 </div>
               </a>
             </div>
@@ -229,10 +261,10 @@
           <div class="swiper-scrollbar"></div>
         </div>
       </section>
-      <!-- section_4 스와이퍼 컨텐츠 이미지랑 타이틀 두개 더 찾아서 넣기 -->
+      <!-- section_4 end -->
 
       <section class="section_5">
-        <div class="title_wrap_5">
+        <div class="title_wrap_5" data-aos="zoom-in" data-aos-duration="1000">
           <h3>
             HSG성동조선에서 <br />
             당신의 꿈과 희망을 실현하세요.
@@ -245,7 +277,7 @@
           </p>
         </div>
 
-        <div class="arrow_btn_5">
+        <div class="arrow_btn_5" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
           <a href="#">
             채용 바로가기
             <i class="fa-solid fa-arrow-right"></i>
@@ -274,7 +306,17 @@
         <div class="copylight">
           Copyright © HSG SUNGDONG SHIPBUILDING Co., Ltd. All rights reserved.
         </div>
+
       </footer>
+
     </div>
+
+    <div class="top_btn">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
