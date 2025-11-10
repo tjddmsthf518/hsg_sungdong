@@ -15,7 +15,7 @@ $(document).ready(function () {
   $(".menu_bar").click(function(){
     $(".sub_menu_wrap").stop().animate({
       right: 0
-    });
+    },300);
 
     $("body").css({
       overflowY: "hidden"
@@ -45,4 +45,20 @@ $(document).ready(function () {
     grabCursor: true,
     spaceBetween: 16,
   });
+
+  $(window).scroll(function(){
+    var pageY = $(window).scrollTop();
+
+    if(pageY > 500){
+      $(".top_btn").stop().animate({
+        opacity: 1
+      });
+    }else{
+      $(".top_btn").stop().animate({
+        opacity: 0
+      });
+    }
+    // console.log(pageY);
+  });
+
 });

@@ -9,6 +9,8 @@
   left: 50%;
   transform: translateX(-50%);
   overflow-x: hidden;
+  z-index: 100;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 header {
@@ -410,8 +412,21 @@ footer {
   cursor: pointer;
 }
 
+.background_wrap{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../img/background_wrap_img.jpg) no-repeat center / cover;
+  opacity: 0.15;
+}
+
+.top_btn{
+  opacity: 0;
+}
+
 .top_btn i{
   font-size: 18px;
   color: white;
 }
-
